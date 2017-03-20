@@ -86,7 +86,8 @@ class LoginController extends Controller
             }
         }
        
-        return View::make('login');
+        //return View::make('login');
+		return View::make('login')->with('message', 'Login Failed!! Please try again.');
     }
 
     public function logout(){

@@ -58,6 +58,11 @@
                     </div>
                 </div>
             </div>
+			 <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                     <div><h3><span style="color:red">{{ $message or "" }}</span></h3></div>
+                </div>
+			 <div>
         </div>
     </body>
 </html>
