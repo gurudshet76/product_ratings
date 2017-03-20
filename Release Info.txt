@@ -1,0 +1,60 @@
+POC Name: Product ratings
+-------------------------
+
+Source Path:
+------------
+https://github.com/gurudshet76/product_ratings
+	
+Folder details:
+---------------
+	- db_script - contains MySql db script. DB with default values can be populated by importing this script.
+	- prodratings - contains the source implemented as per the requirements (using php laravel framework developed the poc)
+	
+	
+
+Steps to run system:
+--------------------
+	1) Checkout the sources from git path
+	2) Import the db script to database (MySQL Database)
+	3) Configure the db parameters in in /prodratings/config/database.php
+		'mysql' => [
+            'driver' => 'mysql',
+												'host' => env('DB_HOST', '127.0.0.1'),
+												'port' => env('DB_PORT', '3306'),
+												'database' => env('DB_DATABASE', 'mspr_ratings'),
+												'username' => env('DB_USERNAME', 'root'),
+												'password' => env('DB_PASSWORD', 'root123'),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+		
+	4) run a command as below from path /prodratings
+		>php artisan serve  (by default it starts in port no - 9000 as configured. It can be changed based on requirements)
+	
+	5) Launch http://localhost:9000 or http://<IP>:9000
+		This will launch the login page. Supported for default admin login and visitor login.
+			*. Default Admin(as part of db script) ->   Email: admin@gmail.com
+													Password: 12345
+													location: INDIA
+				Default admin can create additional users like staff or manager to access or handling various operations.
+				
+			*. Visitor : select "visitor" checkbox and select "location" it navigates to products details and its review site.
+			
+
+			
+			
+Importing bulk data from Excels or Json file:
+---------------------------------------------
+	1. Product import:
+	------------------
+		xls file: follow the below format to import the products details in the system. Based on user (manager/staff) aread the products details will be uploaded to system.
+			"id 	name	description	camera	weight	maxstorage	price"
+			
+	2. Review ratings:
+	------------------
+		JSON file:
+			Followed sample json shared for POC development. Based on user (manager/staff) area the review ratings will be uploaded. Only with that particular area user can view the reviews.
+		
