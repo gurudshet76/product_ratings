@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Galaxy S7 edge",
+    "description": "he beauty of what we've engineered is to give you the slimmest feel in your hand without compromising the big screen size. And the elegantly curved front and back fit in your palm just right. It's as beautiful to look at, as it is to use.",
+    "reviews": [
+		{
+		  "rating": "5",
+		  "name": "Ra-one",
+		  "description": "Good phone"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Joan",
+		  "description": "Could be better"
+		},
+		{
+		  "rating": "5",
+		  "name": "G-one",
+		  "description": "Brilliant phone."
+		}
+	]
+  },
+  {
+    "name": "Lumia 950 XL Dual SIM",
+    "description": "Available in space gray, silver, gold, and rose gold, iPhone 6s features an A9 chip, 3D Touch, Touch ID, a 12MP camera, and iOS 10.",
+    "reviews": [
+		{
+		  "rating": "3.5",
+		  "name": "Bruce",
+		  "description": ""
+		},
+		{
+		  "rating": "5",
+		  "name": "Tony",
+		  "description": "Loving it."
+		},
+		{
+		  "rating": "3",
+		  "name": "Clark",
+		  "description": "Too big."
+		}
+	]
+  },
+  {
+    "name": "iPhone 7",
+    "description": "Available in jet black,1 black, silver, gold, and rose gold, iPhone 7 features an all-new 12MP camera; splash, water, and dust resistance; an A10 Fusion chip; a new Retina HD display with wide color; stereo speakers; and iOS 10.",
+    "reviews": [
+		{
+		  "rating": "4",
+		  "name": "Flipkart customer",
+		  "description": "Decent phone"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Anonymous",
+		  "description": "My backup phone"
+		},
+		{
+		  "rating": "5",
+		  "name": "Bruce",
+		  "description": "indestructable."
+		}
+	]
+  },
+  {
+    "name": "galaxy-note-5",
+    "description": "Bigger has always been better. Galaxy Note proved that time and again. It also changed the entire game with S Pen. A versatile tool for ideas, goals and dreams. This time it's Galaxy Note5. The most powerful and beautiful version to date.",
+    "reviews": [
+		{
+		  "rating": "5",
+		  "name": "Black",
+		  "description": "I use note 1,2,3,4, and note edge bt this note 5 is best from far note up cmng"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Hawk",
+		  "description": "Great phone and features also good so i recommend the buyers please buy this mobile phone"
+		},
+		{
+		  "rating": "4",
+		  "name": "Agent",
+		  "description": "Note 5 is a very handy light weight and great external looks. Stylus is just awesome. I love the Samsung flagship design"
+		}
+	]
+  }
+]

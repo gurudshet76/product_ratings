@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Lumia 650 Dual SIM",
+    "description": "With precision crafted metal frame design, refined performance and Windows 10 built in, it’s the smart choice for your business.",
+    "reviews": [
+		{
+		  "rating": "5",
+		  "name": "Bradley",
+		  "description": "Good phone"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Michael",
+		  "description": "Could be better"
+		},
+		{
+		  "rating": "5",
+		  "name": "Stark",
+		  "description": "Brilliant phone."
+		}
+	]
+  },
+  {
+    "name": "Lumia 950 XL Dual SIM",
+    "description": "Available in space gray, silver, gold, and rose gold, iPhone 6s features an A9 chip, 3D Touch, Touch ID, a 12MP camera, and iOS 10.",
+    "reviews": [
+		{
+		  "rating": "3.5",
+		  "name": "Brad",
+		  "description": ""
+		},
+		{
+		  "rating": "5",
+		  "name": "Mic",
+		  "description": "Loving it."
+		},
+		{
+		  "rating": "3",
+		  "name": "John",
+		  "description": "Too big."
+		}
+	]
+  },
+  {
+    "name": "iPhone 7",
+    "description": "Available in jet black,1 black, silver, gold, and rose gold, iPhone 7 features an all-new 12MP camera; splash, water, and dust resistance; an A10 Fusion chip; a new Retina HD display with wide color; stereo speakers; and iOS 10.",
+    "reviews": [
+		{
+		  "rating": "4",
+		  "name": "Noah",
+		  "description": "Decent phone"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Ches",
+		  "description": "My backup phone"
+		},
+		{
+		  "rating": "5",
+		  "name": "Robin",
+		  "description": "indestructable."
+		}
+	]
+  },
+  {
+    "name": "iPhone SE",
+    "description": "Available in space gray, silver, gold, and rose gold, iPhone SE features an A9 chip, Touch ID, a 12MP camera, and iOS 10.",
+    "reviews": [
+		{
+		  "rating": "5",
+		  "name": "Jor",
+		  "description": "Decent phone"
+		},
+		{
+		  "rating": "4.5",
+		  "name": "Kal",
+		  "description": "iphone iphone iphone - my phone"
+		},
+		{
+		  "rating": "4",
+		  "name": "Cara",
+		  "description": "this is the phone."
+		}
+	]
+  }
+]
